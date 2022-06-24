@@ -242,8 +242,7 @@ class Order:
         'number_of_products', 'number_of_sellers', 'price', 'freight_value',
         'distance_seller_customer']
         """
-        # Hint: make sure to re-use your instance methods defined above
-        # $CHALLENGIFY_BEGIN
+
         training_set = (
             self.get_wait_time(is_delivered)
             .merge(self.get_review_score(), on="order_id")
