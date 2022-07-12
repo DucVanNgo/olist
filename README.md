@@ -8,6 +8,6 @@ Check out the dataset [here](https://www.kaggle.com/datasets/olistbr/brazilian-e
 
 To access the data from the CSV, a 'olist' package was created to extract the processed data. It can be installed by accessing the folder and install it via pip.
 
-# Ongoing
+# :exclamation: Ongoing analysis :exclamation:
 
 I am still working on this projects and updated are mainly done in the Jupyter Notebook. End result should be a simple tableau dashboard for visualizing the findings.
