@@ -9,7 +9,7 @@ class Olist:
         The keys are the file names and its values are pd.dataframes loaded
         the csv files.
         """
-        csv_path = os.path.join(os.path.dirname(__file__), "../data/csv/")
+        csv_path = os.path.join(os.path.dirname(__file__), "../raw_data/csv/")
         file_names = [
             "olist_sellers_dataset.csv",
             "product_category_name_translation.csv",
@@ -34,4 +34,4 @@ class Olist:
         print("pong")
 
 
-print(os.path.join(os.path.dirname(__file__), "../data/csv/"))
+print(os.path.join(os.path.dirname(__file__), "../raw_data/csv/"))
